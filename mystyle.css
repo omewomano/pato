@@ -1,0 +1,137 @@
+
+.show {
+    border: solid 1px #aaa; 
+    height: inherit; 
+}
+
+
+.pad {
+    margin-top:1.1%
+ }
+
+
+.logo-settings {
+    width: 60%;
+    margin: 10px 0px;
+}
+
+.nav-link {
+    margin: 29px 24px;    
+}
+
+.nav-link a {
+    padding: 0px 8px;;
+   color: black;
+   border-right: 1px solid black;
+}
+
+.nav-link a:last-child {
+    border-right: none;
+    
+}
+
+.tab-content{
+    padding-left: 5%
+}
+
+.nav-tabs{
+    padding-left: 20%;
+    padding-right:20%;
+}
+
+.top-nav{
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+quote{
+    font-size: 18px;
+    font-weight: bolder
+}
+
+.mytab{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mytab li{
+    margin:1px;
+    border-bottom: solid 1px #111 
+}
+
+.mytab2{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.mytab2 li{
+    margin:1px;
+    border-bottom: solid 1px #111 ;
+    
+}
+
+.red{
+    color:red
+}
+
+.footer{
+    height:70%;
+    background-color: #eee
+}
+
+.footer{
+    padding: 50px 30px;
+    text-align: center
+}
+.footer-list{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.borda-top{
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+.panel{
+    border-left: none;
+    border-right:none    
+}
+
+
+
+.panel .list-group-item, .panel-heading{
+    border-left: none;
+    border-right:none;
+    background-color:none;  
+    padding:2.5%;  
+    text-align: left
+}
+
+.footer-panel .list-group-item, .panel-heading{
+    border:none;
+    background-color:#eee;  
+    padding:0.5%;  
+    text-align: left
+}
+
+.b-red{border-color:red}
+.bg-red{background-color: red}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #000;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-bottom-color:#f00 ;
+    border-bottom: 3px dotted #f00;
+	box-shadow: inset 0 -3px 0 0 #f00, 0 3px 0 0 #f00;
+    padding-left: 80px;
+    padding-right: 80px%;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:active, .nav-tabs>li>a{
+    padding-left: 80px;
+    padding-right: 80px;
+}
