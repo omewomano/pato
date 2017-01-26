@@ -135,3 +135,11 @@ quote{
     padding-left: 80px;
     padding-right: 80px;
 }
+.grey{
+    background-color: #aaa;
+    color:#fff
+}
+.green{
+    background-color: #7d3;
+    color:#fff
+}
