@@ -134,6 +134,7 @@ quote{
 .nav-tabs>li>a:hover, .nav-tabs>li>a:active, .nav-tabs>li>a{
     padding-left: 80px;
     padding-right: 80px;
+    color:#000;
 }
 .grey{
     background-color: #aaa;
@@ -157,4 +158,12 @@ cl-white{
 
 .centad .row div p{
     text-align: center;
+}
+
+.drop-down{
+    padding-top: 9px;
+}
+
+.border-top{
+    border-top: 1px solid #aaa;
 }
