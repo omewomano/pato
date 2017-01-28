@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Arsenal', sans-serif;
+}
 .show {
     border: solid 1px #aaa; 
     height: inherit; 
@@ -142,4 +144,13 @@ quote{
 .green{
     background-color: #7d3;
     color:#fff
+}
+cl-white{
+    color:#fff
+}
+.bold{
+    font-weight: bolder
+}
+.panel ul li a{
+    color: #000;
 }
