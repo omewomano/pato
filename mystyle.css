@@ -126,8 +126,7 @@ quote{
     cursor: default;
     background-color: #fff;
     border: 1px solid transparent;
-    border-bottom-color:#f00 ;
-    border-bottom: 3px dashed #f00;
+    border-bottom: 3px dashed #f44336;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -153,4 +152,9 @@ cl-white{
 .panel ul li a{
     color: #000;
 }
-.b-col{    color: #fff;}
+.b-col{    color: #fff;
+}
+
+.centad .row div p{
+    text-align: center;
+}
