@@ -37,13 +37,13 @@ body{
 }
 
 .nav-tabs{
-    padding-left: 20%;
-    padding-right:20%;
+    padding-left: 10%;
+    padding-right:10%;
 }
 
 .top-nav{
-    padding-left: 10%;
-    padding-right:10%;
+    padding-left: 2%;
+    padding-right:2%;
 }
 
 quote{
@@ -56,33 +56,14 @@ quote{
     text-decoration: none;
 }
 
-.mytab li{
-    margin:1px;
-    border-bottom: solid 1px #111 
-}
-
-.mytab2{
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0px;
-}
-
-.mytab2 li{
-    margin:1px;
-    border-bottom: solid 1px #111 ;
-    
-}
 
 .red{
     color:red
 }
 
 .footer{
-    height:70%;
-    background-color: #eee
-}
-
-.footer{
+    height:80%;
+    background-color: #eee;
     padding: 50px 30px;
     text-align: center
 }
@@ -96,14 +77,14 @@ quote{
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
 }
-.panel{
+.left-panel{
     border-left: none;
     border-right:none    
 }
 
 
 
-.panel .list-group-item, .panel-heading{
+.panel .list-group-item{
     border-left: none;
     border-right:none;
     background-color:none;  
@@ -111,13 +92,20 @@ quote{
     text-align: left
 }
 
-.footer-panel .list-group-item, .panel-heading{
+.footer-panel{
     border:none;
     background-color:#eee;  
     padding:0.5%;  
-    text-align: left
+    text-align: left;
+    box-shadow: none;
+    
 }
-
+ .footer-panel .list-group .list-group-item{
+     background-color: #eee;
+     border:none;
+     padding:0.5%;
+ }
+  
 .b-red{border-color:#f44336}
 .bg-red{background-color: #f44336}
 
@@ -168,3 +156,4 @@ cl-white{
     border-top: 1px solid #aaa;
 }
 
+.full{padding:9px}
