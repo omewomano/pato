@@ -243,4 +243,15 @@ div ul{
 .category .sub-list .quick-title{color:#999;margin-top:5px}.category .list-area{float:left;background:#fff}
 .category .col-double{width:400px}.category .col-triple{width:600px}
 .category .special{width:199px;float:right;position:relative;padding-top:35px}
-.category .special .title{position:absolute;width:121px;height:24px;left:-6px;top:5px;padding-left:12px;line-height:20px;color:#fff;font-weight:bold;background-position:-210px -60px}
+.category .special .title{
+    position:absolute;
+    width:121px;
+    height:24px
+    ;left:-6px;
+    top:5px;
+    padding-left:12px
+    ;line-height:20px;
+    color:#fff;
+    font-weight:bold;
+    background-position:-210px -60px
+    }
