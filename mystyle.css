@@ -230,8 +230,16 @@ div ul{
 }
 
 
-.category .sub-list .see-more a{color:#ff850a}
-.category .sub-list .see-more .icon{visibility:visible;float:none;margin:0;vertical-align:middle}
+.category .sub-list .see-more a{
+    color:#ff850a
+}
+
+.category .sub-list .see-more .icon{
+    visibility:visible;
+    float:none;
+    margin:0;
+    vertical-align:middle
+}
 .category .sub-list .quick-title{color:#999;margin-top:5px}.category .list-area{float:left;background:#fff}
 .category .col-double{width:400px}.category .col-triple{width:600px}
 .category .special{width:199px;float:right;position:relative;padding-top:35px}
