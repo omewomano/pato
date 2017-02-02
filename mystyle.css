@@ -157,6 +157,18 @@ cl-white{
 
 .full{padding:9px}
 
+.fb:hover{
+    color: #22f;
+}
+
+.tw:hover{
+    color: #66f;
+}
+.gp:hover{
+    color: #f44336;
+   
+}
+
 
 /* pop up css */
     * {
@@ -231,14 +243,4 @@ ul {
 }
 
 /* end of pop up css*/
-.fb:hover{
-    color: #22f;
-}
 
-.tw:hover{
-    color: #66f;
-}
-.gp:hover{
-    color: #f44336;
-   
-}
