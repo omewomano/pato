@@ -190,25 +190,20 @@ ul {
 }
 
 .second-row {
-  left: 92%;
+  left: 100%;
   top: 0;
 }
-
-/*.holder:hover a,
-.second-row {
-  background: #395066;
-}*/
-
-
 
 .holding .col-lg-12{position: absolute}
 
 .design{
   width:500px;
   padding: 10px 13px 10px 15px;
-  border-radius: 19px;
-  background-color: #fee;
-  z-index: 2;
+  background-color: #fff;
+  z-index: -26;
+  box-shadow: 2px 2px 2px  2px#000;
+  border-left: none;
+  
 }
 
 .first-level .holding{
@@ -221,10 +216,11 @@ ul {
 
 .holding:hover{
   padding-left: 4px;
-  z-index: 1;
-  background-color: #fee;
+  z-index: 3000;
+  background-color: #fff;
   border-top: none;
   border-bottom: none;
+  box-shadow: 2px 2px 2px  2px#000;
 }
 .show{
   border: solid 1px green
@@ -234,4 +230,14 @@ ul {
   color: black
 }
 
-/* end of pop up css/*
+/* end of pop up css*/
+.fb:hover{
+    color: #22f;
+}
+
+.tw:hover{
+    color: #66f;
+}
+.gp:hover{
+    color: #f44336;
+}
