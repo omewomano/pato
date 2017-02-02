@@ -155,103 +155,81 @@ cl-white{
     border-top: 1px solid #aaa;
 }
 
-.full{padding:9px}
-
-                      category sub-menu gvgh{
-    display: none;
-    position: absolute;
-    z-index: 1;
-    left: 190px;
-    top: -1px;
-    border: 1px solid #999;
-    background: #fff;
-    -webkit-box-shadow: 3px 3px 5px rgba(60,60,60,0.3);
-    -moz-box-shadow: 3px 3px 5px rgba(60,60,60,0.3);
-    box-shadow: 3px 3px 5px rgba(60,60,60,0.3);
-}
-.flexy{border:solid 2px red}
-
-div ul{
-    text-decoration: none;
-    list-style-type: none;
-}
-.john{
-    border: solid 2px red;
-    display: block;
-    list-style-type: none;
-        display:inline-block;
-}
-
-.category .catlog{
-    padding-left:1px;
-}
-
-.category .catlog .item-link{
-    border-bottom:1px solid #e5e5e5;
-    padding:6px 0 7px 1px;
-    color:#222;
-    display:block;
-    text-decoration:none
-}
-    
-.category .catlog .hover{
-        position:relative;
-        z-index:80
-}
-
-.category .catlog .hover .item-link{
-    border:1px solid #999;
-    border-right:0;
-    color:#ff850a;
-    position:relative;
-    z-index:2;
-    width:180px;top:-1px;background:#fff;padding:6px 1px 6px 9px
-}
-
-.category .sub-menu{
-    display:none;
-    position:absolute;
-    z-index:1;
-    left:179px;
-    top:-1px;
-    border:1px solid #999;
-    background:#fff;
-}
-
-.category .hover .sub-menu{
-    display:block;
-    background-position:400px 0
-    ;background-repeat:repeat-y
-}
-.category .sub-list{
-    width:180px;
-    float:left;
-    padding:10px
+   
+    /* pop up css */
+    * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
-.category .sub-list .see-more a{
-    color:#ff850a
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
 }
 
-.category .sub-list .see-more .icon{
-    visibility:visible;
-    float:none;
-    margin:0;
-    vertical-align:middle
+
+
+
+
+.holding{
+  position: relative;
+  padding:5px;
 }
-.category .sub-list .quick-title{color:#999;margin-top:5px}.category .list-area{float:left;background:#fff}
-.category .col-double{width:400px}.category .col-triple{width:600px}
-.category .special{width:199px;float:right;position:relative;padding-top:35px}
-.category .special .title{
-    position:absolute;
-    width:121px;
-    height:24px
-    ;left:-6px;
-    top:5px;
-    padding-left:12px
-    ;line-height:20px;
-    color:#fff;
-    font-weight:bold;
-    background-position:-210px -60px
-    }
+
+.second-row {
+  position: absolute;
+  display: none;
+}
+
+.holding:hover > .second-row {
+  display: block;
+}
+
+.second-row {
+  left: 92%;
+  top: 0;
+}
+
+/*.holder:hover a,
+.second-row {
+  background: #395066;
+}*/
+
+
+
+.holding .col-lg-12{position: absolute}
+
+.design{
+  width:500px;
+  padding: 10px 13px 10px 15px;
+  border-radius: 19px;
+  background-color: #fee;
+  z-index: 2;
+}
+
+.first-level .holding{
+  border-top: solid 2px #bbb
+}
+
+.first-level .holding:last-child{
+  border-bottom: solid 2px #bbb
+}
+
+.holding:hover{
+  padding-left: 4px;
+  z-index: 1;
+  background-color: #fee;
+  border-top: none;
+  border-bottom: none;
+}
+.show{
+  border: solid 1px green
+}
+
+.first-level ul li a, .holding a, .holding a:hover, .holding a:active{
+  color: black
+}
+
+/* end of pop up css*/
