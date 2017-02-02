@@ -155,8 +155,10 @@ cl-white{
     border-top: 1px solid #aaa;
 }
 
-   
-    /* pop up css */
+.full{padding:9px}
+
+
+/* pop up css */
     * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -232,4 +234,4 @@ ul {
   color: black
 }
 
-/* end of pop up css*/
+/* end of pop up css/*
