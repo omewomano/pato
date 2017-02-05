@@ -212,8 +212,8 @@ ul {
   width:500px;
   padding: 10px 13px 10px 15px;
   background-color: #fff;
-  z-index: -26;
-  box-shadow: 2px 2px 2px  2px#000;
+  z-index:3400000;
+  box-shadow: 1px 1px  1px#000;
   border-left: none;
   
 }
@@ -232,7 +232,7 @@ ul {
   background-color: #fff;
   border-top: none;
   border-bottom: none;
-  box-shadow: 2px 2px 2px  2px#000;
+  box-shadow: 1px 1px  1px#000;
 }
 .show{
   border: solid 1px green
