@@ -103,7 +103,8 @@ quote{
  }
   
 .b-red{border-color:#f44336}
-.bg-red{background-color: #f44336}
+.bg-red{background-color: #f44336;}
+.wyt{ color: #fff; font-weight: bolder}
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #000;
@@ -244,3 +245,6 @@ ul {
 
 /* end of pop up css*/
 
+wyt{
+    color: #fff
+}
