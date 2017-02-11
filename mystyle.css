@@ -248,20 +248,42 @@ ul {
 
 /* end of pop up css*/
 
-.hold{height: 10%;border:solid 2px #eee}
-.no-pad{padding: 0px; padding-top: 5px}
+.hold{
+    height: 10%;
+    border:solid 2px #eee
+}
+
+.no-pad{
+    padding: 0px;
+    padding-top: 3px
+}
+
+.top-pad{
+    padding-top: 15px
+}
+
 .wide{width: 100%}
-td{padding-left: 4%}
+
+td{
+    padding-left: 4%
+}
+
 .strip :nth-child(even){
     background-color: #eee
 }
-.panel-heading2{background-color: #aaa}
+
+.panel-heading2{
+    background-color: #aaa
+}
+
 .panel-default>.panel-heading {
     color: #fff;
     background-color: #aaa;
     border-color: #ddd;
     font-weight: bolder
-}.nav>li>a {
+}
+
+.nav>li>a {
     position: relative;
     display: block;
     padding: 10px 15px;
@@ -279,12 +301,15 @@ td{padding-left: 4%}
     background-color:#fff;
     border: none;
 }
+
 .mini-tab li a{
     color:#000
 }
+
 .mini-pad{
    padding-left: 0px
 }
+
 .mininav-div{
     border: solid 1px #ddd
 }
