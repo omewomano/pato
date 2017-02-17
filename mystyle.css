@@ -386,3 +386,10 @@ td{
     padding-left: 7px;
     padding-top: 4px
 }
+.short{
+    height: 260px;
+    overflow: auto;
+}
+.short-footer{
+    height: 300px;
+}
