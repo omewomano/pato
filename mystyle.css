@@ -381,3 +381,8 @@ td{
 .marg-left{
     margin-right: 15px;
 }
+.left-pad{
+    padding: 0px;
+    padding-left: 7px;
+    padding-top: 4px
+}
