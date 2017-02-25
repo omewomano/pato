@@ -476,3 +476,13 @@ td{
     padding-top:2px;
     padding-bottom: 2px;
 }
+
+.page-four-side-bar{
+    border: solid 1px #ddd;
+    margin-right:15px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.fixed-height
