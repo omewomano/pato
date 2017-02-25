@@ -21,11 +21,14 @@ body{
     margin: 29px 24px;    
 }
 
-.nav-link a {
+.nav-link a{
     padding: 0px 8px;;
    color: black;
    border-right: 1px solid black;
 }
+
+
+
 
 .nav-link a:last-child {
     border-right: none;
@@ -162,12 +165,26 @@ cl-white{
     color: #22f;
 }
 
+
+
 .tw:hover{
     color: #6cf;
 }
 .gp:hover{
     color: #a33;
    
+}
+
+.facebook{
+    color: #22f;
+}
+
+.twitter{
+    color: #6cf;
+}
+
+.google-plus{
+    color: #a33;
 }
 
 
@@ -404,4 +421,58 @@ td{
 .product-header{
     font-size: 13px;
     text-align: justify;
+}
+.fixed-height{
+    height:140px;
+    width:95%;
+    margin-bottom: 7px;
+    margin-top: 19px;
+}
+.you-may-like{
+    border: solid 1px #aaa;
+    margin-right:15px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+}
+.you-may-like-header{
+    background-color:#aaa;
+    color: #fff;
+    padding-left:none;
+    text-align: center;
+    height: 29px;
+    padding-top: 5px
+}
+
+.you-may-like-body{
+    padding-left:20px
+}
+
+.nav-holder{
+    background-color:#aaa;
+    color: #fff;
+    margin: solid 1px #999;
+    border-radius: 4px;
+    height: 36px;
+    width:100%;
+    padding-left:35px;
+
+    padding-top: 8px;
+}
+.nav-holder a{
+    color:#fff;
+    padding: 0px 8px;
+    font-weight: bolder
+}
+
+.fixed-height2{
+    height:300px;
+    width:100%;
+}
+
+
+.item-description>tbody>tr>td{
+    border-top: none;
+    font-size: 13px;
+    padding-top:2px;
+    padding-bottom: 2px;
 }
