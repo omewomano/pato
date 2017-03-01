@@ -468,6 +468,10 @@ td{
     height:300px;
     width:100%;
 }
+.logistics-image{
+    height:230px;
+    width:100%;
+}
 
 
 .item-description>tbody>tr>td{
@@ -487,4 +491,12 @@ td{
 }
 .bottom-pad{
     padding-bottom: 5px;
+}
+hr{
+    margin-top: 3px;
+    border-top-color:#888;
+    margin-bottom:5px; 
+}
+.blue{
+    color: #22f;
 }
