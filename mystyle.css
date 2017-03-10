@@ -259,7 +259,7 @@ ul {
   border: solid 1px red
 }
 
-.first-level ul li a, .holding a, .holding a:hover, .holding a:active{
+.first-level ul li a, .holding a, .holding a:hover, .holding a:active,{
   color: black
 }
 
@@ -489,14 +489,42 @@ td{
     padding-left: 10px;
     padding-right:10px;
 }
+
 .bottom-pad{
     padding-bottom: 5px;
 }
+
 hr{
     margin-top: 3px;
     border-top-color:#888;
     margin-bottom:5px; 
 }
+
 .blue{
     color: #22f;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.special-text{
+    font-size: 34px
+}
+.align-left .control-label{
+    text-align: left;
+}
+
+.center-align{
+    text-align: center;
+    margin-right: 1px;
+}
+
+.video-design{
+    border: solid 1px #999;
+    border-radius: 13px;
+}
+
+.video-design a, .video-design a:hover, .video-design a:active{
+    color: #222
 }
