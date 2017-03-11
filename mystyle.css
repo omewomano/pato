@@ -403,6 +403,13 @@ td{
     padding-left: 7px;
     padding-top: 4px
 }
+
+.left-pad-2{
+    padding: 0px;
+    padding-left: 25px;
+    padding-top: 4px
+}
+
 .short{
     height: 260px;
     overflow: auto;
@@ -484,6 +491,16 @@ td{
 .page-four-side-bar{
     border: solid 1px #ddd;
     margin-right:15px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+
+
+.page-five-side-bar{
+    border: solid 1px #ddd;
     border-radius: 4px;
     margin-bottom: 7px;
     padding-left: 10px;
