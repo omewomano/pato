@@ -40,13 +40,14 @@ body{
 }
 
 .nav-tabs{
-    padding-left: 10%;
+    padding-left: 35%;
     padding-right:10%;
 }
 
 .top-nav{
-    padding-left: 2%;
-    padding-right:2%;
+    padding-left: 30%;
+    margin-left:15px;
+    margin-right:15px
 }
 
 quote{
@@ -115,14 +116,11 @@ quote{
     background-color: #fff;
     border: 1px solid transparent;
     border-bottom: 3px dashed #f44336;
-    padding-left: 80px;
-    padding-right: 80px;
+
     
 }
 
 .nav-tabs>li>a:hover, .nav-tabs>li>a:active, .nav-tabs>li>a{
-    padding-left: 80px;
-    padding-right: 80px;
     color:#000;
     text-decoration: none;
 }
@@ -147,9 +145,7 @@ cl-white{
 .b-col{    color: #fff;
 }
 
-.centad .row div p{
-    text-align: center;
-}
+
 
 .drop-down{
     padding-top: 9px;
@@ -546,4 +542,13 @@ hr{
 
 .video-design a, .video-design a:hover, .video-design a:active{
     color: #222
+}
+
+
+.first-level li a:hover, .first-level li a:active, .first-level li a{
+    color: #000;
+    text-decoration: none;
+}
+.all-catergories{
+    margin-left: -10px
 }
