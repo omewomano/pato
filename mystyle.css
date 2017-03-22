@@ -552,3 +552,7 @@ hr{
 .all-catergories{
     margin-left: -10px
 }
+
+a, a:hover, a:active{
+    color: #200
+}
