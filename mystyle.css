@@ -463,6 +463,8 @@ td{
 
     padding-top: 8px;
 }
+.nav-holder.bg-red{background-color: #f44336}
+
 .nav-holder a{
     color:#fff;
     padding: 0px 8px;
@@ -555,4 +557,15 @@ hr{
 
 a, a:hover, a:active{
     color: #200
+}
+
+.exhibitor{
+    border: solid 1px #200;
+    background-color: #200;
+    color: #fff;
+    margin-top: 14px;
+    height: 40px
+}
+.exhibitor h4 strong{
+    top: 12px
 }
