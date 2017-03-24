@@ -569,3 +569,13 @@ a, a:hover, a:active{
 .exhibitor h4 strong{
     top: 12px
 }
+
+.black-and-white{
+    background-color:#100;
+    color: #fff;
+    border: solid 1px #100;
+    width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+}
