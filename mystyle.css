@@ -39,9 +39,19 @@ body{
     padding-left: 5%
 }
 
+.tab-content.page13{
+    padding-left: 0px
+}
+
 .nav-tabs{
     padding-left: 35%;
     padding-right:10%;
+}
+
+.nav-tabs.page13{
+    padding-left: 0%;
+    padding-right:0%;
+    text-align: center
 }
 
 .top-nav{
@@ -117,6 +127,31 @@ quote{
     border: 1px solid transparent;
     border-bottom: 3px dashed #f44336;
 
+    
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #000;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-bottom: 3px dashed #f44336;
+}
+
+.nav-tabs.page13>li.active>a, .nav-tabs.page13>li.active>a:focus, .nav-tabs.page13>li.active>a:hover {
+    color: #000;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #fff;
+    
+}
+
+.nav-tabs.page13>li, .nav-tabs.page13>li .nav-tabs.page13>li {
+    color: #000;
+    cursor: default;
+    background-color: #aaa;
+    border: 1px solid #aaa;
+    width: 50%
     
 }
 
@@ -276,7 +311,9 @@ ul {
     padding-top: 15px
 }
 
-.wide{width: 100%}
+.wide{
+    width: 100%
+}
 
 td{
     padding-left: 4%
@@ -460,9 +497,14 @@ td{
     height: 36px;
     width:100%;
     padding-left:35px;
-
     padding-top: 8px;
 }
+
+.nav-holder.page13{
+    margin-top: 13px;
+    margin-bottom:12px;
+}
+
 .nav-holder.bg-red{background-color: #f44336}
 
 .nav-holder a{
@@ -578,4 +620,17 @@ a, a:hover, a:active{
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 4px;
+}
+
+.page13-form-pad{
+    margin-bottom: 1px;
+    padding-bottom: 1px
+}
+
+.page13-top-pad{
+    margin-top: none;
+}
+
+.omano{
+    width: 47%;
 }
