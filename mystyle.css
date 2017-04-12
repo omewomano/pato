@@ -545,6 +545,28 @@ td{
     padding-right:10px;
 }
 
+.page16-bar{
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-right: 12px;
+    margin-top: 6px;
+    padding-bottom: 9px
+}
+
+.page16-side-bar{
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    padding-right:10px;
+    margin-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 8px
+
+}
+
 
 
 .page-five-side-bar{
@@ -657,4 +679,8 @@ a, a:hover, a:active{
 .floating-pad{
     border-radius: 6px;
     box-shadow: 1px 1px  3px 3px #999;
+}
+
+.page16.nav-holder a{
+    padding: 3.7%;
 }
