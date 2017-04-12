@@ -86,6 +86,7 @@ quote{
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
 }
+
 .left-panel{
     border: none;
     box-shadow: none;    
@@ -159,6 +160,7 @@ quote{
     color:#000;
     text-decoration: none;
 }
+
 .grey{
     background-color: #aaa;
     color:#fff
@@ -451,6 +453,10 @@ td{
 .short-footer{
     height: 299px;
 }
+
+
+
+
 .breadcrumb{
     background-color: #fff;
     font-size: 14px;
@@ -598,7 +604,8 @@ hr{
 }
 
 a, a:hover, a:active{
-    color: #200
+    color: #200;
+    text-decoration: none;
 }
 
 .exhibitor{
@@ -633,4 +640,21 @@ a, a:hover, a:active{
 
 .omano{
     width: 47%;
+}
+
+.page15.container{
+    height:inherit;
+}
+
+.page15.footer{
+    height:212px
+}
+
+.login{
+    margin-top: 3%
+}
+
+.floating-pad{
+    border-radius: 6px;
+    box-shadow: 1px 1px  3px 3px #999;
 }
