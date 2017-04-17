@@ -313,6 +313,10 @@ ul {
     padding-top: 15px
 }
 
+.small-top-pad{
+    padding-top: 7px
+}
+
 .wide{
     width: 100%
 }
@@ -682,5 +686,16 @@ a, a:hover, a:active{
 }
 
 .page16.nav-holder a{
-    padding: 3.7%;
+    padding: 3%;
 }
+
+.image-placeholder{
+    border: solid 1px #aaa;
+    border-radius: 4px;
+    height:75px;
+    width: 90px;
+    padding:5px;
+    margin-bottom: 4px;
+
+}
+
