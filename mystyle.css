@@ -270,11 +270,11 @@ ul {
 }
 
 .first-level .holding{
-  border-top: solid 2px #bbb
+  border-top: solid 1px #bbb
 }
 
 .first-level .holding:last-child{
-  border-bottom: solid 2px #bbb
+  border-bottom: solid 1px #bbb
 }
 
 
